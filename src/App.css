@@ -80,3 +80,378 @@
     transform: rotate(360deg);
   }
 }
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input-field {
+  width: 250px;
+  max-height: 20%;
+  max-width: 120px;
+  margin: 5px;
+}
+
+.Button{
+  margin-left: 10px;
+  max-width: fit-content;
+  border-radius: 10px;
+  background-color: #61dafb;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+}
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin-right: 10vw;
+  justify-content: space-around;
+}
+.App-body{
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  justify-content: center;
+  border: 1px solid red;
+  min-height: 80vh;
+}
+.register-form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Home Page Styles*/
+
+/* Styles for the navbar */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Spacing items evenly along the main axis (horizontal) */
+
+  /* Align items vertically in the center */
+  align-items: center;
+}
+
+/* Style for the logo */
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px; /* Add some right margin for spacing */
+}
+
+/* Style for the application name */
+.app-name {
+  font-size: 24px;
+}
+
+/* Styles for the navigation links on the right */
+.nav-links {
+  display: flex;
+}
+
+/* Style for individual navigation links */
+.nav-link {
+  margin: 0 10px; /* Add horizontal margin to space out the links */
+  text-decoration: none;
+  color: white;
+}
+
+/* Nathaniel CSS - Let me know if changes should be made, also feel free to make changes */
+
+/*About Us Styles */
+
+/* Styles for the About Us text */
+.about-us-text {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Style for the About Us heading */
+.about-us-text h1 {
+  font-size: 28px;
+}
+
+/* Style for the About Us paragraph */
+.about-us-text p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*Become Tutor Styles */ 
+
+/* Apply styles to the entire BecomeTutor component */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+select[multiple] {
+  height: 100px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.Button {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #005a9c;
+}
+
+p {
+  color: red;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/*Confirmation Screen Styles */
+
+/* Apply styles to the entire ConfirmationScreen component */
+.ConfirmationScreen {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #007acc;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+button {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #005a9c;
+}
+
+/* Parent Component Styles */ 
+/* Apply styles to the entire ParentComponent component */
+.ParentComponent {
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #007acc;
+}
+
+/* Style the ConfirmationScreen component */
+.ConfirmationScreen {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Apply styles to buttons */
+button {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #005a9c;
+}
+
+/*SignInScreen Styles */
+
+/* Apply styles to the entire SignInScreen component */
+.SignInScreen {
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  color: #007acc;
+}
+
+/* Style form elements */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+/* Apply styles to buttons */
+button {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #005a9c;
+}
+
+a {
+  text-decoration: none;
+  color: #007acc;
+}
+
+/*SignUpScreen Styles */ 
+/* Apply styles to the entire SignUpScreen component */
+.SignUpScreen {
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  color: #007acc;
+}
+
+/* Style form elements */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px 0;
+}
+
+/* Apply styles to buttons */
+button {
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #005a9c;
+}
+
